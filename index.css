@@ -1,0 +1,93 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 90%;
+  width: 30%;
+  background-color: beige;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px grey;
+}
+.target-row {
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#board {
+  height: 60%;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin-bottom: 10%;
+  background-color: #8bc6ec;
+}
+
+#target {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: navy;
+  margin: 20px;
+  color: white;
+  font-size: 40px;
+}
+
+#currentSum {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: navajowhite;
+  margin: 20px;
+  color: white;
+  font-size: 40px;
+}
+
+#score {
+  height: 5%;
+  font-weight: bold;
+  font-size: 15px;
+}
+#timer {
+  height: 10%;
+}
+.row {
+  display: flex;
+}
+.cell {
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  border: 1px solid black;
+  margin: 2px;
+  border-radius: 5px;
+  background-color: salmon;
+}
+
+.selected {
+  background-color: blue;
+}
